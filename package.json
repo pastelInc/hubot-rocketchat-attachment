@@ -6,7 +6,20 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pastelInc/hubot-rocketchat-attachment.git"
+  },
+  "keywords": [
+    "hubot"
+  ],
   "author": "pastelInc <keyaki765+npm@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.10.0",
+    "npm": ">=3.10.7"
+  },
+  "bugs": {
+    "url": "https://github.com/pastelInc/hubot-rocketchat-attachment/issues"
+  }
 }
