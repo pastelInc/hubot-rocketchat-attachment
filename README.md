@@ -10,6 +10,12 @@ Rocket.Chat attachment like [Slack](https://api.slack.com/docs/message-attachmen
 
 And then add hubot-rocketchat-attachment to external-scripts.json.
 
+## Run
+
+```
+  HUBOT_ROCKETCHAT_INCOMING_WEBHOOK=INCOMING-WEBHOOK-URL bin/hubot -a rocketchat
+```
+
 ## Usage
 
 Let see [this page](https://rocket.chat/docs/administrator-guides/integrations/).
