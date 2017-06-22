@@ -8,7 +8,7 @@ module.exports = (robot, scripts) => {
     const ref = fs.readdirSync(scriptsPath);
     const results = [];
 
-    for (let i = 0, let len = ref.length; i < len; i++) {
+    for (let i = 0, len = ref.length; i < len; i++) {
       const script = ref[i];
 
       if ((scripts != null) && indexOf.call(scripts, '*') < 0) {
